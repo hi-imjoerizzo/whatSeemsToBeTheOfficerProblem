@@ -1,7 +1,21 @@
 @charset "UTF-8";
 /* CSS Document */
 
-a{
-display: inline-block;
-text-align: center;
+
+body{
+	background: black;
+	}
+	
+.easyhtml5video{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 180px 0 0 -240px;
+	}
+
+
+@media (max-width: 1200px){
+}
+
+@media (min-width: 400px){
 }
