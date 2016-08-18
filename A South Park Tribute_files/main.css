@@ -6,22 +6,16 @@ body{
 	background: black;
 }
 
-.introText{
-	color: white;
-	display: block;
-	text-align: center;
-	margin: 150px auto 0px auto;
-}
-
-h1, h2{
-	margin: 0 auto;
+h1 
+h2{
+	font-color: white;
 }
 
 .easyhtml5video{
 	position: absolute;
     top: 50%;
     left: 50%;
-    margin: 100px 0 0 -240px;
+    margin: 180px 0 0 -240px;
 }
 
 
