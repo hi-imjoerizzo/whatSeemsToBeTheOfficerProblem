@@ -1,5 +1,5 @@
 // JavaScript Document
 
-window.onload = function() {
-    document.getElementById("error").style.opacity = 1;
-}
+$(document).ready( function() {
+	$("#justWait").delay(10000).fadeOut();
+});

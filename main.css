@@ -4,8 +4,15 @@
 
 body{
 	background: white;
+    font-family: "Gill Sans", Gill Sans MT, "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", sans-serif;
 }
 
+#justWait{
+    font-size: 36px;
+    display: block;
+    margin-top: 300px;
+    text-align: center;
+}
 
 /* make keyframes that tell the start state and the end state of our object */
 
@@ -28,8 +35,13 @@ body{
     animation-duration:1s;
 }
 
+.Act2{
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    animation-delay: 24s;
+}
+
 h1, h2{
-    font-family: "Gill Sans", Gill Sans MT, "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", sans-serif;
     margin: 0 auto;
 }
 
@@ -37,21 +49,20 @@ h1, h2{
     color: black;
     display: block;
     text-align: center;
-/*    margin: 150px auto 0px auto;*/
 }
 
 .introText.one {
     margin: 150px auto 0px auto;
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
-    animation-delay: 1s;
+    -webkit-animation-delay: 21s;
+    -moz-animation-delay: 21s;
+    animation-delay: 21s;
 }
 
 .introText.two {
     margin: 25px auto 0px auto;
-    -webkit-animation-delay: 2.4s;
-    -moz-animation-delay: 2.4s;
-    animation-delay: 2.4s;
+    -webkit-animation-delay: 22.4s;
+    -moz-animation-delay: 22.4s;
+    animation-delay: 22.4s;
 }
 
 .easyhtml5video{
